@@ -20,7 +20,7 @@ Poslední změna: 2026-10-23
 
 ## Kdo odpovídá za zpracování
 
-Ing. Miroslav Fontán, Písecká 561, 388 01 Blatná, Česká republika
+Ing. Miroslav Fontán, 561 Písecká, Blatná, 388 01, Česká republika
 E-mail: embryo.gomoku@gmail.com
 
 Tyto zásady se týkají aplikace pro Android „Embryo Gomoku“ („aplikace“).

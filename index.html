@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ing. Miroslav Fontán - Developer Profile</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; }
+        header { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 20px; text-align: center; }
+        h1 { margin: 0 0 10px 0; color: #1a73e8; font-size: 28px; }
+        nav { margin-bottom: 20px; text-align: center; }
+        nav a { margin: 0 10px; text-decoration: none; color: #1a73e8; font-weight: bold; cursor: pointer; }
+        nav a:hover { text-decoration: underline; }
+        .section { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 20px; display: none; }
+        .active { display: block; }
+        .info-grid { display: grid; grid-template-columns: 140px 1fr; gap: 10px; margin-top: 20px; background: #f1f3f4; padding: 15px; border-radius: 6px; }
+        .info-label { font-weight: bold; color: #5f6368; }
+        footer { text-align: center; margin-top: 40px; font-size: 14px; color: #70757a; }
+        .btn { display: inline-block; background: #1a73e8; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; margin-top: 15px; font-weight: bold; }
+        .btn:hover { background: #1557b0; }
+    </style>
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
+            document.getElementById(sectionId).classList.add('active');
+            window.scrollTo(0, 0);
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>Ing. Miroslav Fontán</h1>
+        <p>Official Mobile Application Developer Website</p>
+    </header>
+
+    <nav>
+        <a href="#home" onclick="showSection('home'); return false;">About & Contact</a> | 
+        <a href="#privacy" onclick="showSection('privacy'); return false;">Privacy Policy</a>
+    </nav>
+
+    <!-- ABOUT & CONTACT SECTION -->
+    <div id="home" class="section active">
+        <h2>About Us</h2>
+        <p>We are an independent development studio dedicated to designing, developing, and publishing innovative mobile applications and games for the Android platform. Our mission is to deliver high-quality, stable, and engaging digital experiences to users worldwide.</p>
+        <p>To stay updated on our latest projects and upcoming releases, please visit our community page:</p>
+        <a href="https://www.facebook.com/embryo.engine/" class="btn" target="_blank" rel="noopener noreferrer">Follow us on Facebook</a>
+
+        <h2 style="margin-top: 40px;">Corporate Identification & Contact Details</h2>
+        <p>The information below matches our legal entity records in the Dun & Bradstreet (D-U-N-S) registry and our Google Play Developer profile.</p>
+        
+        <div class="info-grid">
+            <div class="info-label">Organization:</div>
+            <div>Ing. Miroslav Fontán</div>
+            
+            <div class="info-label">Street Address:</div>
+            <div>561 Písecká</div>
+            
+            <div class="info-label">City & ZIP Code:</div>
+            <div>Blatná, 388 01</div>
+            
+            <div class="info-label">Country:</div>
+            <div>Czechia</div>
+            
+            <div class="info-label">Email:</div>
+            <div>embryo.gomoku@gmail.com</div>
+        </div>
+    </div>
+
+    <!-- PRIVACY POLICY SECTION -->
+    <div id="privacy" class="section">
+        <h2>Privacy Policy</h2>
+        <p>Each application has its own privacy policy:</p>
+        <ul>
+            <li>Gomoku Embryo: <a href="/gomoku/privacy">English</a> | <a href="/gomoku/privacy-cs">&#268;esky</a></li>
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2026 Ing. Miroslav Fontán. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
