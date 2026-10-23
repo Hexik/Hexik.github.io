@@ -20,7 +20,7 @@ Last updated: 2026-10-23
 
 ## Who is responsible
 
-Ing. Miroslav Fontán, 561 Písecká, Blatná, 388 01, Czechia
+Ing. Miroslav Fontán, 561 Písecká, Blatná, 388 01, Czech Republic
 E-mail: embryo.gomoku@gmail.com
 
 This policy covers the Android app "Embryo Gomoku" (the "app").
